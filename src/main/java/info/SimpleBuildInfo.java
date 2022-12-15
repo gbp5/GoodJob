@@ -12,7 +12,7 @@ public class SimpleBuildInfo {
 		String javaVersion = Runtime.version().toString();
 		String time = LocalDateTime.now().toString();
 		System.out.println(String.format("********\n Build Time: %s \n Java Version: %s \n********", time, javaVersion));
-		System.out.println("Webhooks Yayy !!!");
+		System.out.println("Check Webhooks Yayy !!!");
 
 	}
 
