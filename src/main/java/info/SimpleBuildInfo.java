@@ -9,9 +9,9 @@ public class SimpleBuildInfo {
 		
 		System.out.println("Loading required Info :: ");
 		
-		String javaVersion = Runtime.version().toString();
+//		String javaVersion = Runtime.version().toString();
 		String time = LocalDateTime.now().toString();
-		System.out.println(String.format("********\n Build Time: %s \n Java Version: %s \n********", time, javaVersion));
+		System.out.println(String.format("********\n Build Time: %s \n Java Version: 17 \n********", time));
 		System.out.println("Check Webhooks Yayy !!!");
 
 	}
